@@ -1,0 +1,553 @@
+@media screen and (max-width: 1440px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        height: 100%;
+        font-size: calc(1em + 1vw);
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .page{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .header{
+      width:100%;
+      height:650px;  
+    }
+    .hero_header{
+        width:100%;
+        height:650px; 
+        position: absolute; 
+        z-index: -999;
+    }
+    .logo{
+       margin-top:60px;
+       margin-left:175px; 
+       position: relative;
+    }
+    nav{
+        width:500px;
+        height:30px;
+        display:flex;
+        float: right;
+        margin-right:20px;
+        margin-top: 60px;
+        background-color: transparent;
+    }
+      ul {
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        font-size: 0.7em;
+        cursor: pointer;
+        list-style-type: none;
+        display:flex;
+        margin-left: 20px;
+    }
+    li a {
+        margin-top: -20px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 0.7em;
+        font-family: 'Alata', sans-serif;
+      }
+      a:hover{
+          border-bottom: 2px solid white;
+      }
+    .header_text{
+        width: 650px;
+        height:250px;
+        color:white;
+        font-size: 1em;
+        border:2px solid white;
+        margin-top:120px;
+       margin-left:175px;
+       font-family: 'Josefin Sans', sans-serif;
+       font-weight: 200;
+       text-transform: uppercase;
+    }
+    .header_text h1{
+        margin-left: 40px;
+    }
+    .immersive{
+        margin-top: 40px;
+    }
+    .loop_section{
+        width: 100%;
+        height: auto;
+    }
+    .loop{
+        margin-top: 160px;
+        margin-left: 140px;
+        z-index: -999;
+    }
+    .loop_text{
+        width:550px;
+        height:358px;
+        float: right;
+        right:170px;
+        top:952px;
+        background-color: white;
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .loop_text h1{
+        font-size: 1.6em;
+        text-transform: uppercase;
+        font-weight: 100;
+        margin-top:80px;
+        text-align: left;
+        margin-left:100px;
+    }
+    .loop_text p{
+        width: 78%;
+        font-size: 0.6em;
+        text-align: justify;
+        color:hsl(0, 0%, 55%);
+        margin-left: 100px;
+        margin-top: 30px;
+        line-height: 25px;
+    }
+    .creations{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .creations h1{
+        margin-top: 70px;
+        margin-left: 180px;
+        margin-bottom: 80px;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        float: right;
+        margin-left: 615px;
+        margin-top: 70px;
+        margin-bottom: 80px;
+        color:white;
+        background-color: black;
+        border:none;
+        text-transform: uppercase;
+    }
+    .creations_img{
+        width:964px;
+        height: auto;
+        margin-bottom: 5px;
+        margin-left: 120px;
+        display: flex;
+        background-color: transparent;
+        position: relative;
+    }
+    .creations_img img{
+        margin: 20px;
+    }
+    
+    .prva_text{
+      position: absolute; 
+      margin-left:60px; 
+      margin-top: 370px;
+      color:white;
+      text-transform: uppercase;
+      font-size: 1em;
+    }
+    .druga_text{
+     position: absolute; 
+      margin-left:360px; 
+      margin-top: 370px;
+      color:white;
+      text-transform: uppercase;
+      font-size: 1em; 
+    }
+    .treca_text{
+        position: absolute; 
+        margin-left:660px; 
+        margin-top: 370px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1em; 
+    }
+    .cetvrta_text{
+        position: absolute; 
+        margin-left:950px; 
+        margin-top: 370px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1em;  
+    }
+    .peta_text{
+        position: absolute; 
+        margin-left:60px; 
+        margin-top: 370px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+    .sesta_text{
+        position: absolute; 
+        margin-left:360px; 
+        margin-top: 370px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1em; 
+    }
+    .sedma_text{
+        position: absolute; 
+        margin-left:660px; 
+        margin-top: 370px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1em; 
+    }
+    .osma_text{
+        position: absolute; 
+        margin-left:950px; 
+        margin-top: 340px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1em; 
+    }
+    .footer_section{
+        margin-top: 170px;
+       background-color: black; 
+       margin-bottom: 0;
+       width: 100%;
+       height: 160px;
+       position: absolute;
+    }
+    .footer_logo{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        float: left;
+      margin-left: 160px;  
+    }
+    .footer_nav{
+        float:left;
+       margin-left:-270px;
+        padding:40px;
+    }
+    .facebook,
+    .twitter,
+    .pinterest,
+    .instagram{
+        float:right;
+    
+    }
+    .facebook{
+        margin-top:40px;
+        margin-right:270px;
+    }
+    .twitter{
+        margin-top:40px;
+        margin-right:-60px;
+    }
+    .pinterest{
+        margin-top:40px;
+        margin-right:-90px;
+    }
+    .instagram{
+        margin-top:40px;
+        margin-right:-120px; 
+    }
+    .all_rights{
+      color:hsl(0, 0%, 55%);
+      float:right;
+      margin-right: -125px;
+      margin-top:80px; 
+      font-size: 0.7em; 
+    }
+    .attribution{
+       margin-top:140px; 
+       color:white;
+    }
+    
+  }
+  /*surfice duo*/
+  @media screen and (max-width: 540px) {
+    body{
+     width:100%;
+     height:auto;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    }
+    .logo{
+        margin-top:60px;
+        margin-left:40px; 
+        position: relative;
+     }
+     nav{
+         display: none;
+     }
+     .page{
+        width: 100%;
+        height: auto;
+      position: relative;
+    }
+    .header{
+      width:540px;
+      height:550px;  
+    }
+    .hero_header{
+        width:540px;
+        height:550px; 
+        position: absolute; 
+        z-index: -999;
+    }
+    .header_text{
+        width: 350px;
+        height:200px;
+        color:white;
+        font-size: 0.9em;
+        border:2px solid white;
+        margin-top:120px;
+        margin-left: 190px;
+       font-family: 'Josefin Sans', sans-serif;
+       font-weight: 200;
+       text-transform: uppercase;
+       text-align: left;
+    }
+    .loop_section{
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .loop{
+        width:540px;
+        height:300px;
+        margin-top: 160px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+    .loop_text{
+        margin-top:120px;
+        width:500px;
+        height:358px;
+       margin-right:-240px;
+       position: absolute;
+        background-color: transparent;
+    }
+
+    .loop_text h1{
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 100;
+        margin-top:80px;
+       text-align: center;
+        white-space: nowrap;
+    }
+    .loop_text p{
+        width: 350px;
+        font-size: 0.7em;
+        text-align: justify;
+        color:hsl(0, 0%, 55%);
+        margin-left: 140px;
+        margin-top: 30px;
+        line-height: 25px;
+    }
+    .creations{
+        margin-top: 350px;
+        width: 414px;
+        height: auto;
+        margin-left: 100px;
+      background-color: transparent;
+    }
+    .creations h1{
+        margin-top: 70px;
+        margin-bottom: 80px;
+        text-align: left;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        margin-top: 2650px;
+        margin-left:200px;
+        margin-bottom: 80px;
+        color:black;
+        background-color: white;
+        border:1px solid black;
+        text-transform: uppercase;
+        position: absolute;
+        z-index: 1;
+    }
+    .creations_img{
+        margin-top:50px;
+        width:540px;
+        height: auto;
+        margin-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: transparent;
+        position: relative;
+    }
+    .creations_img img{   
+        width:540px;
+        height:250px;
+        margin: 20px;
+        margin-left:10px; 
+   }
+    
+    .prva_text{
+      position: absolute; 
+       margin-top: 170px;
+       margin-left: 100px;
+      color:white;
+      text-transform: uppercase;
+      font-size: 1.2em;
+    }
+    .druga_text{
+       position: absolute; 
+       margin-top: 450px;
+       margin-left:100px;
+       color:white;
+       text-transform: uppercase;
+       font-size: 1.2em; 
+    }
+    .treca_text{
+        position: absolute; 
+         margin-top: 750px;
+         margin-left: 100px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1.2em; 
+    }
+    .cetvrta_text{
+        position: absolute; 
+        margin-top: 1050px;
+        margin-left: 100px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1.2em;  
+    }
+    .peta_text{
+        position: absolute; 
+        margin-top: 180px;
+        margin-left:100px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    .sesta_text{
+        position: absolute; 
+        margin-top: 470px;
+        margin-left:100px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1.2em; 
+    }
+    .sedma_text{
+        position: absolute; 
+         margin-top: 770px;
+         margin-left:100px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1.2em; 
+    }
+    .osma_text{
+        position: absolute; 
+         margin-top: 1050px;
+         margin-left: 100px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1.2em; 
+    }
+    .footer_section{
+       margin-top: 170px;
+       background-color: black; 
+       margin-bottom: 0;
+       width: 540px;
+       height: 500px;
+       margin-left: 120px;
+       position: absolute;
+    }
+    .footer_logo{
+        margin-top: 40px;
+        margin-bottom: 40px; 
+    }
+    .footer_nav{
+         margin:0 auto;
+         margin-top: -70px;
+        color: white;
+        display: block;
+        background-color: transparent;
+        
+    }
+    .footer_ul{
+       display:flex; 
+       flex-direction: column;
+       font-size: 1em;
+    }
+    .footer_li a{
+        margin:2px;
+        border-bottom: none;
+    }
+    .footer_li:hover{
+        border-bottom: none;
+    }
+    
+    .facebook{
+        margin-top:250px;
+        margin-right:300px;
+    }
+    .twitter{
+        margin-top:250px;
+        margin-right:-70px;
+    }
+    .pinterest{
+        margin-top:250px;
+        margin-right:-110px;
+    }
+    .instagram{
+        margin-top:250px;
+        margin-right:-150px; 
+    }
+    .all_rights{
+      color:hsl(0, 0%, 55%);
+      float:right;
+      margin-right: -180px;
+      margin-top:290px; 
+      font-size: 0.7em; 
+    }
+    .attribution{
+       margin-top:480px;
+       margin-left: 80px; 
+       color:white;
+    }
+   .mobile_nav{
+       margin-top:-40px;
+       float:right;
+       margin-right:-40px;
+       display:block;
+       z-index: 1;
+       position: relative;
+       border:none;
+       background-color: transparent;
+   }
+    
+  }
+ 
