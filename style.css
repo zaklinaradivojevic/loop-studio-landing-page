@@ -278,3 +278,12 @@ button{
 .mobile_nav{
     display: none;
 }
+.close_nav_btn{
+    display:none;
+}
+.mobile_logo{
+    display:none;
+}
+.mobile_nav_nav{
+    display:none;
+}
