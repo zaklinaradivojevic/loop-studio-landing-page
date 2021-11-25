@@ -284,6 +284,7 @@
     .header{
       width:100%;
       height:650px;  
+      display:block;
     }
     .hero_header{
         width:100%;
@@ -564,12 +565,13 @@
      text-align: center;
     }
     .logo{
-        margin-top:60px;
+        background-color:transparent;
+        margin-top:-490px;
         margin-bottom: 120px;
-        margin-left:-122%; 
+        margin-left:100px; 
         position:absolute;
-         z-index: 1;
-         background-color: transparent;
+        z-index: 1;
+        display:block;
      }
      nav{
          display: none;
@@ -589,6 +591,7 @@
       margin:0;
       padding: 0;
       margin-bottom: 160px; 
+      display:block;
     }
     .hero_header{
         width:913px;
@@ -669,7 +672,7 @@
     button{
         width: 150px;
         height: 40px;
-        margin-top: 2330px;
+        margin-top: 2420px;
         margin-left:190px;
         margin-bottom: 80px;
         color:black;
@@ -693,6 +696,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        
     }
    .slika{
        width:100%;
@@ -791,29 +795,42 @@
        flex-direction: column;
        font-size: 1em;
     }
-    .footer_li a{
+    .footer_ul a{
         margin:2px;
         border-bottom: none;
     }
-    .footer_li:hover{
+    .footer_ul:hover{
         border-bottom: none;
+        opacity: 0.7;
     }
     
     .facebook{
         margin-top:250px;
         margin-right:370px;
     }
+    .facebook:hover{
+        opacity:0.7;
+    }
     .twitter{
         margin-top:250px;
         margin-right:-70px;
+    }
+    .twitter:hover{
+        opacity:0.7;
     }
     .pinterest{
         margin-top:250px;
         margin-right:-110px;
     }
+    .pinterest:hover{
+        opacity: 0.7;
+    }
     .instagram{
         margin-top:250px;
         margin-right:-150px; 
+    }
+    .instagram:hover{
+        opacity:0.7;
     }
     .all_rights{
       color:hsl(0, 0%, 55%);
@@ -827,54 +844,69 @@
        margin-left: 80px; 
        color:white;
     }
-   .mobile_nav{
-       margin-top:-500px;
-       margin-left:70%;
-       display:block;
-       z-index: 1;
-       border:none;
-       background-color:transparent;
-       position:absolute;
-   }
+    .mobile_nav{
+        margin-top:-500px;
+        margin-left:80%;
+        display:block;
+        z-index: 1;
+        border:none;
+        background-color:transparent;
+        position:absolute;
+    }
    .mobile{
+    margin-top:-550px;
     display:none;
     width:100%;
     height:550px;
     background-color: black;
     z-index: 1;
+    position: absolute;
 }
 .mobile_logo{
-margin-top:60px;
-margin-left:175px;
-position: absolute;
+    background-color:transparent;
+    margin-top:60px;
+    margin-bottom: 120px;
+    margin-left:32px; 
+    position:absolute;
+    z-index: 1;
+    display:block;
 }
 .close_nav{
-    margin-top: 10px;
-    float:right;
-    margin-right:10px;
+    margin-top:-20px;
+    margin-left:70%;
+    z-index: 1;
+    display:block;
+    position:absolute;
 }
 .close_nav_btn{
-    margin-top: 10px;
     border:none;
     float:right;
-    margin-right:120px;
+    margin-top:60px;
+    margin-left:70%;
     background-color:transparent;
+    z-index: 1;
+    display:block;
 }
 .mobile_nav_nav{
-    margin-top:25px;
+    width:200px;
+    height:auto;
+    margin-top:125px;
+    margin-right: 60%;
+    background-color: tomato;
+    z-index: 1;
     display: flex;
     flex-direction: column;
 }
-.mobile_ul{
-    width:400px;
-    height: 50px;
+.mobile_nav_nav ul{
+    display:flex; 
+    flex-direction: column;
     z-index: 1;
+    font-size: 1.2em;
+    position: absolute;
+}
+.mobile_nav_nav li{
+    margin-bottom: 30px;
 }
 
-.mobile_li a{
-    margin:10px;
-    font-size: 1.2em;
-    float:left;
-}
   }
  
